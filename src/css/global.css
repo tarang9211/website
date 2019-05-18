@@ -1,0 +1,36 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+.profile-bg {
+  background-image: url('../../static/profile.jpg');
+}
+
+.mrg-btm-0 {
+  margin-bottom: 0;
+}
+
+a.projects-link {
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 1px;
+  border-bottom: 1px solid transparent;
+}
+
+a.projects-link:hover {
+  border-bottom: 1px solid #5A67D8;
+  transition: border-bottom 0.25s ease-in;
+}
+
+.svg {
+  fill: #4a5568;
+  cursor: pointer;
+}
+
+.twitter-svg:hover,
+.github-svg:hover,
+.linkedin-svg:hover {
+  fill: #5A67D8;
+  transition: fill 0.25s ease-in-out;
+}

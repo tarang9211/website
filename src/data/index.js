@@ -20,7 +20,7 @@ const data = [
   {
     title: (
       <>
-        Lead Full Stack Developer @{" "}
+        Full Stack Developer/Engineering Manager @{" "}
         <a
           className="projects-link"
           href="https://aimactek.com/"
@@ -53,7 +53,7 @@ const data = [
   {
     title: (
       <>
-        Lead UI Developer @{" "}
+        Lead UI Developer/Frontend Lead @{" "}
         <a
           className="projects-link"
           href="https://www.progress.com/kinvey"
@@ -104,7 +104,7 @@ const data = [
   {
     title: (
       <>
-        Web Developer Intern @{" "}
+        Full Stack Developer @{" "}
         <a
           className="projects-link"
           href="https://ws680.nist.gov/birds"
@@ -118,7 +118,7 @@ const data = [
       </>
     ),
     subtitle:
-      "Developed a tool to examine environmental sustainability of various houses spread across USA",
+      "Developed, BIRDS, a platform to examine environmental sustainability of households spread across the USA",
   },
 ]
 

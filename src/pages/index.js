@@ -70,8 +70,8 @@ const Index = () => {
           </div>
         </section>
         <section>
-          <h4 className="font-sans antialiased font-medium text-xl text-gray-300">
-            Projects
+          <h4 className="underline italic font-sans antialiased font-medium text-xl text-gray-300">
+            Experience
           </h4>
           <ul className="p-0 list-none">
             {data.map(d => {

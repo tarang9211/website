@@ -4,6 +4,22 @@ const data = [
   {
     title: (
       <>
+        UI Engineer @{" "}
+        <a
+          className="projects-link"
+          href="https://www.thinkmill.com.au/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         <span className="italic">Thinkmill</span>
+        </a>
+      </>
+    ),
+    subtitle: "UI/UX engineering for several products"
+  },
+  {
+    title: (
+      <>
         Lead React Developer @{" "}
         <a
           className="projects-link"

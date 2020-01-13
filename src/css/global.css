@@ -3,6 +3,14 @@
 @tailwind utilities;
 @tailwind screens;
 
+html {
+  --main-bg-color: rgb(54, 54, 56);
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
 .profile-bg {
   background-image: url('../../static/profile.jpg');
 }

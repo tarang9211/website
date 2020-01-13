@@ -11,11 +11,27 @@ const data = [
           target="_blank"
           rel="noopener noreferrer"
         >
-         <span className="italic">Thinkmill</span>
+          <span className="italic">Thinkmill</span>
         </a>
       </>
     ),
     subtitle: "UI/UX engineering for several products"
+  },
+  {
+    title: (
+      <>
+        Lead Full Stack Developer @{" "}
+        <a
+          className="projects-link"
+          href="https://aimactek.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="italic">Aimactek</span>
+        </a>
+      </>
+    ),
+    subtitle: "Architected and developed an AI/ML platform for contract analysis in the legal domain"
   },
   {
     title: (

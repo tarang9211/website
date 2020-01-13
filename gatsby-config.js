@@ -9,9 +9,11 @@ module.exports = {
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-favicon',
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
+        logo: './src/static/profile.png',
         rule: {
           include: /assets/
         }

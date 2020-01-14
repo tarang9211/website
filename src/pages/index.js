@@ -4,7 +4,8 @@ import data from "../data"
 import TwitterIcon from "../assets/svgs/twitter.svg"
 import GithubIcon from "../assets/svgs/github.svg"
 import LinkedInIcon from "../assets/svgs/linkedin.svg"
-import "../css/global.css"
+import "../css/global.css";
+import '../../node_modules/tailwindcss/tailwind.css';
 
 const Index = () => {
   return (
@@ -15,7 +16,10 @@ const Index = () => {
         <title>Tarang Hirani</title>
         <meta name="description" content="Tarang Hirani's website"/>
       </Helmet>
-      <div className="container mx-auto">
+      <div className="container mx-auto p-2">
+        <section className="min-w-full mb-10 flex justify-center sm:justify-end ">
+          <a aria-label="Link to blog" href="#" className="no-underline font-sans antialiased font-normal text-xs text-gray-300">Blog</a>
+        </section>
         <section className="min-w-full flex justify-center">
           <div
             className="

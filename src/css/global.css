@@ -1,7 +1,6 @@
-@tailwind preflight;
-@tailwind components;
+@tailwind base;
 @tailwind utilities;
-@tailwind screens;
+@tailwind components;
 
 html {
   --main-bg-color: rgb(54, 54, 56);

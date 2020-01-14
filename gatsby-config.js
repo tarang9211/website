@@ -6,6 +6,14 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Tarang\'s website & blog',
+    author: 'Tarang Hirani',
+    siteUrl: 'https://taranghirani.com',
+    social: {
+      twitter: '@tarang9211'
+    }
+  },
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
@@ -17,6 +25,13 @@ module.exports = {
         rule: {
           include: /assets/
         }
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'blog',
+        path: `${__dirname}/src/blog`
       }
     }
   ]

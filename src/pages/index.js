@@ -5,7 +5,6 @@ import TwitterIcon from "../assets/svgs/twitter.svg"
 import GithubIcon from "../assets/svgs/github.svg"
 import LinkedInIcon from "../assets/svgs/linkedin.svg"
 import "../css/global.css";
-import '../../node_modules/tailwindcss/tailwind.css';
 
 const Index = () => {
   return (
